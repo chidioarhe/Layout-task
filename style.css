@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.item {
+	margin: 0px;
+	padding: 18px;
+}
+
+.one {
+	border-radius: 5px 0 0 5px;
+	background: hsl(31, 77%, 52%);
+}
+
+.two {
+	background: hsl(184, 100%, 22%);
+	color: hsl(0, 0%, 95%);
+}
+
+.three {
+	border-radius: 0 5px 5px 0;
+	background: hsl(179, 100%, 13%);
+}
+
+h1 {
+	font-family: "Big Shoulders Display", sans-serif;
+	margin: 12px;
+	padding: 6px;
+	color: hsl(0, 0%, 95%);
+}
+
+p {
+	font-family: "Lexend Deca", sans-serif;
+	margin: 12px;
+	padding: 6px;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 15px;
+}
+
+button {
+	width: 110px;
+	padding: 10px;
+	margin: 68px 0px 24px 12px;
+	border-radius: 25px 25px 25px 25px;
+	background: hsl(0, 0%, 95%);
+	border: none;
+}
+
+img {
+	margin: 12px;
+	width: 60px;
+	height: 30px;
+}
+
+.first {
+	color: hsl(31, 77%, 52%);
+}
+
+.second {
+	color: hsl(184, 100%, 22%);
+}
+
+.third {
+	color: hsl(179, 100%, 13%);
+}
+
+/* On Screen 1440px or less, set backbround to very light gray
+@media screen and (max-width: 1440px) {
+	body {
+		background: hsl(0, 0%, 95%);
+	}
+} */
+
+/* On Screen 375px or less, set backbround to very light gray
+@media screen and (max-width: 375px) {
+	body {
+		background: hsl(0, 0%, 95%);
+	}
+} */
