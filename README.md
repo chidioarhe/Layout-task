@@ -15,3 +15,4 @@
 **Resources:**
 
 * [Link to video for CSS Flexbox and Grid](https://www.waiting.zuriboard.com/dashboard/task/71)
+* [Submit](https://www.waiting.zuriboard.com/dashboard/task/71)
